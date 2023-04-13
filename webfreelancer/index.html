@@ -6,19 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diseñador Freelancer</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-    <h1>Enrique Farias freelancer</h1>
+    <h1 class="titulo"> Enrique Farias <span>Freelancer</span>  </h1>
   </header>
 
-  <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Sobre mi</a>
-    <a href="#">Clientes</a>
-    <a href="#">Contacto</a>
-  </nav>
+  <div class="nav-br">
+    <nav class="navegacion-principal contenedor">
+      <a href="#">Inicio</a>
+      <a href="#">Sobre Mi</a>
+      <a href="#">Clientes</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </div>
 
   <section>
     <h2>Diseño y Desarrollo Web Freelancer</h2>
@@ -107,12 +115,12 @@
         </div>
 
         <div>
-          <label for="">Telefono</label>
+          <label for="">Telefono:</label>
           <input type="tel" placeholder="Tu celular">
         </div>
 
         <div>
-          <label for="">Correo</label>
+          <label for="">Correo:</label>
           <input type="email" placeholder="Tu email">
         </div>
 
@@ -124,7 +132,7 @@
         <div>
         <input type="submit" value="Enviar">
         </div>
-        
+
       </fieldset>
     </form>
   </section>
